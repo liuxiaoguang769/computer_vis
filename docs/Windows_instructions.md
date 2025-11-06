@@ -2,12 +2,12 @@
 # 在 Windows (PyCharm) 上使用仓库中的脚本训练（面向小白）
 
 下面的说明基于你提供的数据路径：
-- coco-person annotations: E:\xunleiDownload\dataset\persondata_200\outputs\coco_person_200_coco\annotations.json
-- coco-person images: E:\xunleiDownload\dataset\persondata_200\outputs\coco_person_200_coco\images
-- voc-person annotations: E:\xunleiDownload\dataset\persondata_200\outputs\voc_person_200_coco\annotations.json
-- voc-person images: E:\xunleiDownload\dataset\persondata_200\outputs\voc_person_200_coco\images
-- mpii-person annotations: E:\xunleiDownload\dataset\persondata_200\outputs\mpii_person_200_coco\annotations.json
-- mpii-person images: E:\xunleiDownload\dataset\persondata_200\outputs\mpii_person_200_coco\images
+- coco-person annotations: E:\xunleiDownload\dataset\persondata_200\outputs\coco_train2014_person_200_coco\annotations_coco_train2014.json
+- coco-person images: E:\xunleiDownload\dataset\persondata_200\outputs\coco_train2014_person_200_coco\images
+- voc-person annotations: E:\xunleiDownload\dataset\persondata_200\outputs\VOCtest_06-Nov-2007_person_200_coco\annotations_VOCtest_06-Nov-2007.json
+- voc-person images: E:\xunleiDownload\dataset\persondata_200\outputs\VOCtest_06-Nov-2007_person_200_coco\images
+- mpii-person annotations: E:\xunleiDownload\dataset\persondata_200\outputs\mpii_human_pose_v1_person_200_coco\annotations_mpii_human_pose_v1.json
+- mpii-person images: E:\xunleiDownload\dataset\persondata_200\outputs\mpii_human_pose_v1_person_200_coco\images
 
 ## 目标
 把三份 images 合并到一个文件夹，把三份 annotations 合并成一个 COCO 格式的 instances_train.json，然后使用 MMDetection 的 train.py 训练模型（示例使用 Faster R-CNN）。
