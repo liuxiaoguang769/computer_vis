@@ -1,0 +1,11 @@
+torch>=1.11.0
+torchvision>=0.12.0
+numpy
+pycocotools
+opencv-python
+tqdm
+pillow
+matplotlib
+scipy
+# yolov5 所需依赖（如果使用 yolov5 可在 yolov5/requirements.txt 单独安装）
+# 你也可以直接 git clone https://github.com/ultralytics/yolov5 并 pip install -r yolov5/requirements.txt
